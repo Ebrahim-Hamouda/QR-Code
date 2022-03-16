@@ -1,0 +1,28 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+}
+body > div {
+    width: 264px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 235px;
+}
+body > div > div {
+    text-align: center;
+}
+.text p:first-of-type{
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+.text p:last-of-type {
+    color: hsl(220, 15%, 55%);
+}
+body > div > div  img {
+    max-width: 100%;
+    border-radius: 15px;
+}
